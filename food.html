@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+ <html lang="en">
+     
+     <head>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Food - Sacrilegious Humor</title>
+
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+         
+
+
+         <style>
+
+            body {
+                background-color: rgb(218, 216, 205);
+                margin: 0px;
+            }
+
+            header {
+                width: 100%;
+                height: 175px;
+            }
+
+            header img {
+                width: 100%;
+            }
+
+            nav {
+                width: 100%;
+                height: 80px;
+                background-color: rgb(255,255,255);
+                box-shadow: 2px 2px 3px rgb(141, 140, 131);
+            }
+
+            nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+
+            nav ul li {
+                display: inline;
+                float: left;
+            }
+
+            nav ul li a {
+                display: block;
+                padding: 28px;
+                text-decoration: none;
+                text-align: center;
+                font-size: 14pt;
+                color: rgb(17, 16, 17);
+                font-family: 'Open Sans', sans-serif;
+                border-bottom: 3px solid transparent;
+                margin: 0;
+            }
+
+            nav ul li a:hover {
+                border-bottom: 5px solid rgb(87,34,114);
+                transition: 0.8s;
+            }
+
+            nav ul li a:active {
+                border-bottom: 5px solid rgb(87,34,114);
+                transition: 0.8s;
+            }
+
+            #act-food {
+                border-bottom: 5px solid rgb(87,34,114);
+            }
+
+            h2 {
+                font-family: 'Open Sans', sans-serif;
+                font-size: 40pt;
+                margin: 40px;
+                text-shadow: 2px 2px 4px rgb(141, 140, 131);
+            }
+
+            #t-memes-od {
+                font-family: 'Raleway', sans-serif;
+                font-size: 25pt;
+                margin-left: 20px;
+                color: rgb(87,34,114);
+                padding: 20px 10px;
+            }
+
+            div {
+                position: relative;
+            }
+
+            .title {
+                position: absolute;
+                top: 10%;
+                left: 45%;
+                font-size: 35pt;
+                text-align: left;
+            }
+
+            .desc {
+                position: absolute;
+                top: 25%;
+                left: 40%;
+                font-size: 20pt;
+            }
+
+            .category {
+                position: absolute;
+                top: 55%;
+                left: 42%;
+                font-size: 16pt;
+            }
+
+            div h3 {
+                font-family: 'Raleway', sans-serif;
+                text-align: right;
+            }
+
+            div p {
+                font-family: 'Raleway', sans-serif;
+                text-align: left;
+                margin-right: 80px;
+            }
+
+            div h4 a {
+                font-family: 'Raleway', sans-serif;
+                text-align: center;
+                color:rgb(218, 216, 205);
+                padding: 10px;
+                border-radius: 15%;
+                background-color: rgb(87,34,114);
+                box-shadow: 5px 5px 5px rgb(141, 140, 131);
+            }
+
+            div h4 a:hover {
+                box-shadow: 2px 2px 2px rgb(141, 140, 131);
+                transition: 1s;
+                color: rgb(87,34,114);
+                background-color: rgb(218, 216, 205);
+            }
+
+            article {
+                height: 4610px;
+            }
+
+            .container {
+                width: 95%;
+                background-color: rgb(255,255,255);
+                margin: 40px;
+                box-shadow:2px 3px 4px rgb(141, 140, 131);
+                border-radius: 1%;
+            }
+
+            .meme {
+                width: 500px;
+                margin: 10px;
+                padding: 30px;
+                
+            }
+
+            footer {
+                background-color: rgb(87,34,114);
+                height: 420px;
+                padding-top: 25px;
+            }
+
+            footer p,a {
+                text-decoration: none;
+                color: rgb(255,255,255);
+                font-family: 'Open Sans', sans-serif;
+                margin: 20px;
+            }
+
+            footer a:hover {
+                text-decoration: underline;
+            }
+
+            @media (max-width: 960px) {
+
+                body {
+                    width: 100%;
+                }
+
+                header {
+                    width: 100%;
+                    height: 42px;
+                }
+
+                nav {
+                    width: 100%;
+                    height: 42px;
+                }
+
+                nav ul {
+                    overflow: hidden;
+                }
+
+                nav ul li a {
+                    font-size: 10pt;
+                    padding: 10px;
+                }
+
+                #act-food {
+                    border-bottom: 4px solid rgb(87,34,114);
+                }
+
+                h2 {
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 20pt;
+                    margin: 20px;
+                    text-shadow: 2px 2px 4px rgb(141, 140, 131);
+                }
+
+                #t-memes-od {
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 15pt;
+                    margin-left: 20px;
+                    color: rgb(87,34,114);
+                    padding: 10px;
+                }
+
+                article {
+                    height: 3600px;
+                }
+
+                .container {
+                    width: 90%;
+                    margin-left: 20px;
+                }
+
+                .title {
+                    font-size: 18pt;
+                    top: 8px;
+                    left: 16px;
+                }
+
+                .meme {
+                    width: 200px;
+                }
+
+                .desc {
+                    font-size: 10pt;
+                }
+
+                #i-s-s {
+                height: 480px;
+                }
+
+                #i-s-s-img {
+                    transform: translate(45px,140px);
+                }
+
+                #i-s-s-cat {
+                    transform: translate(-160px,110px);
+                }
+
+                #i-s-s-desc {
+                    top: 12%;
+                    left: 16px;
+                }
+
+
+                div h4 a {
+                    font-size: 11pt;
+                    position: absolute;
+                }
+
+                #f-o-o-o {
+                height: 380px;
+                }
+
+                #f-o-o-o-img {
+                    transform: translate(45px,80px);
+                }
+
+                #f-o-o-o-cat {
+                    transform: translate(-160px,60px);
+                }
+
+                #f-o-o-o-desc {
+                    top: 16%;
+                    left: 16px;
+                }
+
+                #b-a-h {
+                height: 470px;
+                }
+
+                #b-a-h-img {
+                    transform: translate(45px,100px);
+                }
+
+                #b-a-h-cat {
+                    transform: translate(-160px,100px);
+                }
+
+                #b-a-h-desc {
+                    top: 12%;
+                    left: 16px;
+                }
+
+                #s-i-d-s-f-t-e {
+                    height: 400px;
+                }
+
+                #s-i-d-s-f-t-e-img {
+                    transform: translate(15px,100px);
+                    width: 250px;
+                }
+
+                #s-i-d-s-f-t-e-cat {
+                    transform: translate(-160px,80px);
+                }
+
+                #s-i-d-s-f-t-e-desc {
+                    top: 22%;
+                    left: 16px;
+                }
+
+                #i-b-r {
+                    height: 480px;
+                }
+
+                #i-b-r-img {
+                    transform: translate(45px,120px);
+                }
+
+                #i-b-r-cat {
+                    transform: translate(-160px,90px);
+                }
+
+                #i-b-r-para {
+                    top: 17%;
+                    left: 16px;
+                }
+
+                #w-t-d-g-e {
+                    height: 500px;
+                }
+
+                #w-t-d-g-e-img {
+                    transform: translate(45px,140px);
+                }
+
+                #w-t-d-g-e-cat {
+                    transform: translate(-160px,110px);
+                }
+
+                #w-t-d-g-e-desc {
+                    top: 17%;
+                    left: 16px;
+                }
+
+                #w-t-i-f-w {
+                    height: 500px;
+                }
+
+                #w-t-i-f-w-img {
+                    transform: translate(18px,70px);
+                    width: 250px;
+                }
+
+                #w-t-i-f-w-cat {
+                    transform: translate(-160px,120px);
+                }
+
+                #i-b-r-para {
+                    top: 10%;
+                    left: 16px;
+                    font-size: 10pt;
+                }
+
+                #rotato {
+                    height: 470px;
+                }
+
+                #rotato-img {
+                    transform: translate(15px,70px);
+                    width: 250px;
+                }
+
+                #rotato-cat {
+                    transform: translate(-160px,100px);
+                }
+
+                #rotato-desc {
+                    top: 12%;
+                    left: 16px;
+                }
+
+                #w-h-f-a-h {
+                    height: 510px;
+                }
+
+                #w-h-f-a-h-img {
+                    transform: translate(20px,130px);
+                    width: 250px;
+                }
+
+                #w-h-f-a-h-cat {
+                    transform: translate(-160px,130px);
+                }
+
+                #w-h-f-a-h-desc {
+                    top: 17%;
+                    left: 16px;
+                    font-size: 10pt;
+                }
+
+                footer {
+                    height: 770px;
+                }
+
+                footer p {
+                    font-size: 11pt;
+                }
+
+            }
+
+         </style>
+     </head>
+
+     <body>
+         <header>
+            <img src="sac-humor-banner.png" alt="Sacrilegious Humor Banner">
+         </header>
+
+         <nav>
+             <ul>
+                <li><a href="index.html" id="act-home">Home</a></li>
+                <li><a href="scho-life.html" id="act-scho-life">Scholarly Life</a></li>
+                <li><a href="dai-life.html" id="act-dai-life">Daily Life</a></li>
+                <li><a href="food.html" id="act-food">Food</a></li>
+             </ul>
+         </nav>
+
+         <section>
+             <h2>Food</h2>
+
+             <article>
+                <h3 id="t-memes-od">Memes for Both The Cooks and Consumers of Food</h3>
+
+                <div id="i-s-s" class="container">
+                    <img src="https://img.buzzfeed.com/buzzfeed-static/static/2018-02/26/12/asset/buzzfeed-prod-fastlane-01/sub-buzz-11158-1519667998-9.jpg" alt="Inaccurate Serving Sizes" id="i-s-s-img" class="meme">
+                    <h3 class="title">Inaccurate serving sizes</h3>
+                    <h4 class="category"><a href="food.html" id="i-s-s-cat">Food</a></h4>
+                    <p id="i-s-s-desc" class="desc">
+                        If companies really want me to share, they should at least make the portions larger
+                        (It reminds me of when Jamie Oliver said that a cup of rice is enough for four people in one of his
+                        recipe videos lol).
+                    </p>
+                </div>
+                
+                <div id="f-o-o-o" class="container">
+                    <img src="https://runt-of-the-web.com/wordpress/wp-content/uploads/2016/10/food-meme.png" alt="Find the odd one out" id="f-o-o-o-img" class="meme">
+                    <h3 class="title">Find the odd one out</h3>
+                        <h4 class="category"><a href="food.html" id="f-o-o-o-cat">Food</a></h4>
+                    <p id="f-o-o-o-desc" class="desc">
+                        Something's wrong here. . . I can feel it
+                    </p>
+                </div>
+
+                <div id="b-a-h" class="container">
+                    <img src="https://scontent.fmnl2-2.fna.fbcdn.net/v/t39.30808-6/278209423_9135038756513630_2217395161752018686_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=9267fe&_nc_ohc=xnRgmmwFaokAX9ieCgC&_nc_ht=scontent.fmnl2-2.fna&oh=00_AfCIzeHC8Ej4LUBbXjo2ru6SLmFqz2cJgvD2-9Uwu1tpFw&oe=63999C73" alt="Burgers aren't healthy???" id="b-a-h-img" class="meme">
+                    <h3 class="title">Burgers aren't healthy???</h3>
+                    <h4 class="category"><a href="food.html" id="b-a-h-cat">Food</a></h4>
+                    <p id="b-a-h-desc" class="desc">
+                        Burgers have vegetables, so they should be considered healthy, right? (o_o)
+                    </p>
+                </div>
+                
+                <div id="s-i-d-s-f-t-e" class="container">
+                    <img src="https://pbs.twimg.com/media/D1aioeOUwAAogmZ.jpg" alt="Sorry, I don't share food that easily" id="s-i-d-s-f-t-e-img" class="meme">
+                    <h3 class="title">Sorry, I don't share food that easily</h3>
+                    <h4 class="category"><a href="food.html" id="s-i-d-s-f-t-e-cat">Food</a></h4>
+                    <p id="s-i-d-s-f-t-e-desc" class="desc">
+                        Just let me eat in peace! Stop staring at my food!!
+                    </p>
+                </div>
+    
+                <div id="w-t-i-f-w" class="container">
+                    <img src="https://i.redd.it/gp3xgc87x3091.jpg" alt="Went to india for what??" id="w-t-i-f-w-img" class="meme">
+                    <h3 class="title">Went to india for what??</h3>
+                    <h4 class="category"><a href="food.html" id="w-t-i-f-w-cat">Food</a></h4>
+                    <p id="i-b-r-para" class="desc">
+                        No words, just a lack of taste. . . Get it? : )))
+                    </p>
+                </div>
+                
+                <div id="rotato" class="container">
+                    <img src="https://blog.yellowoctopus.com.au/wp-content/uploads/2019/06/yellow-octopus-food-memes-36-275x300.jpg" alt="Rotator + Potato = Rotato!!!" id="rotato-img" class="meme">
+                    <h3 class="title">Rotator + Potato = Rotato!!!</h3>
+                    <h4 class="category"><a href="food.html" id="rotato-cat">Food</a></h4>
+                    <p id="rotato-desc" class="desc">
+                        I mean, it makes sense. . .
+                    </p>
+                </div>
+                
+                <div id="w-h-f-a-h" class="container">
+                    <img src="https://images3.memedroid.com/images/UPLOADED321/620ec7c1cff4c.jpeg" alt="We have food at home, mom said" id="w-h-f-a-h-img" class="meme">
+                    <h3 class="title">We have food at home, mom said</h3>
+                    <h4 class="category"><a href="food.html" id="w-h-f-a-h-cat">Food</a></h4>
+                    <p id="w-h-f-a-h-desc" class="desc">
+                        Food at home is just leftovers mixed together (even when they don't go well with
+                        each other at all) lol
+                </div>
+
+             </article>
+         </section>
+
+         <footer> 
+             <p><b>Image Sources:</b></p>
+             <p><a href="https://www.buzzfeed.com/jamiejones/100-food-memes">Inaccurate Serving Sizes (Buzzfeed)</a></p>
+             <p><a href="https://runt-of-the-web.com/depressing-memes-little-too-real/food-meme">Find the odd one out (Runt of The Web)</a></p>
+             <p><a href="https://www.facebook.com/memes/photos/a.527860673898191/9135038763180296/?type=3">Burgers aren't healthy??? (Facebook)</a></p>
+             <p><a href="https://twitter.com/wilmaxusa/status/1105249576863195136">Sorry, I don't share food that easily (Twitter)</a></p>
+             <p><a href="https://www.reddit.com/r/memes/comments/urxbif/british_food/">Went to india for what?? (Reddit) </a></p>
+             <p><a href="https://blog.yellowoctopus.com.au/harry-potter-quotes/yellow-octopus-food-memes-36/">Rotator + Potato = Rotato!!! (Yellow Blogtopus)</a></p>
+             <p><a href="https://www.memedroid.com/memes/tag/bad+food">We have food at home, mom said  (Memedroid)</a></p>
+         </footer>
+
+     </body>
+
+</html>
